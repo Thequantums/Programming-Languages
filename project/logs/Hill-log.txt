@@ -1,0 +1,137 @@
+Hill
+Serving on ('127.0.0.1', 12205)
+COMMAND RECEIVED: 
+ IAMAT kiwi.cs.ucla.edu +34.068930-118.445127 1520023935.918963997
+ @ 1583659322.7008412
+
+GIVING RESPONSE TO IAMAT COMMAND: 
+AT Hill 63635386.78187728 kiwi.cs.ucla.edu +34.068930-118.445127 1520023935.918963997
+
+ERROR PROPAGATING kiwi.cs.ucla.edu to Jaquez
+
+ERROR PROPAGATING kiwi.cs.ucla.edu to Smith
+
+COMMAND RECEIVED: 
+ WHATSAT kiwi.cs.ucla.edu 10 5
+ @ 1583659323.7025242
+
+QUERYING GOOGLE PLACES API FOR LOCATION(S): (+34.06893,-118.445127) with radius: 10
+RESPONDING TO WHATSAT MESSAGE:
+AT Hill 63635386.78187728 kiwi.cs.ucla.edu +34.06893-118.445127 1583659323.7025242 [
+   {
+      "geometry": {
+         "location": {
+            "lat": 34.0688873,
+            "lng": -118.4450169
+         },
+         "viewport": {
+            "northeast": {
+               "lat": 34.0702312302915,
+               "lng": -118.4436835197085
+            },
+            "southwest": {
+               "lat": 34.0675332697085,
+               "lng": -118.4463814802915
+            }
+         }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+      "id": "ef162ea4f60a0b3933fae75544dba377b996befa",
+      "name": "Westwood Plaza",
+      "place_id": "ChIJ6Re7qYi8woAR22jVhVAye2M",
+      "reference": "ChIJ6Re7qYi8woAR22jVhVAye2M",
+      "scope": "GOOGLE",
+      "types": [
+         "route"
+      ],
+      "vicinity": "Los Angeles"
+   },
+   {
+      "geometry": {
+         "location": {
+            "lat": 34.068921,
+            "lng": -118.4451811
+         },
+         "viewport": {
+            "northeast": {
+               "lat": 34.0828575,
+               "lng": -118.42990995
+            },
+            "southwest": {
+               "lat": 34.0575047,
+               "lng": -118.46313815
+            }
+         }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+      "id": "4d56f16ad3d8976d49143fa4fdfffbc0a7ce8e39",
+      "name": "University of California, Los Angeles",
+      "photos": [
+         {
+            "height": 3024,
+            "html_attributions": [
+               "<a href=\"https://maps.google.com/maps/contrib/102441856898186297335\">G L</a>"
+            ],
+            "photo_reference": "CmRaAAAAO3yEzrqHcGUdQD5uuAeaBhoYKPHPyxvtkyt1vGDy5KllDCbNkY8N9e1CQlpELsVF1SyCG7KvkSeuwGy5hfC0EnLcSiJKELjZje1clKhram3MZOsO4EEZJDC7uu3DNbX1EhBSPVf_XsCzfHy7s16eBY8FGhTNJVHhPBSraE1BtXcVCIp04BH0kw",
+            "width": 4032
+         }
+      ],
+      "place_id": "ChIJZQ9c8IW8woARN0gTXFiTqSU",
+      "plus_code": {
+         "compound_code": "3H93+HW Los Angeles, California, United States",
+         "global_code": "85633H93+HW"
+      },
+      "rating": 4.5,
+      "reference": "ChIJZQ9c8IW8woARN0gTXFiTqSU",
+      "scope": "GOOGLE",
+      "types": [
+         "university",
+         "point_of_interest",
+         "establishment"
+      ],
+      "user_ratings_total": 1662,
+      "vicinity": "Los Angeles"
+   },
+   {
+      "geometry": {
+         "location": {
+            "lat": 34.0522342,
+            "lng": -118.2436849
+         },
+         "viewport": {
+            "northeast": {
+               "lat": 34.3373061,
+               "lng": -118.1552891
+            },
+            "southwest": {
+               "lat": 33.7036519,
+               "lng": -118.6681759
+            }
+         }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+      "id": "7f7b7d8118ae8db8ed3f541159ac928c484d12ad",
+      "name": "Los Angeles",
+      "photos": [
+         {
+            "height": 810,
+            "html_attributions": [
+               "<a href=\"https://maps.google.com/maps/contrib/113136555241333752110\">Kwangsub shin</a>"
+            ],
+            "photo_reference": "CmRaAAAA8Q0omgglKMNF1zUhbVwRwuFyF9SjfErKnOML7m6I1Sqp3YKXLUj3Q9kVGq8-zPza6gmHjE9JEO2O6g8bZRt83Yhec0BwR1bIG2GVRBwyBb0F-90z2doeM3SPVUfr_CzlEhCJtVesQaERxr-AKYpl2o1RGhTdr527k37MWPF4C44hdepUDnjfDw",
+            "width": 1440
+         }
+      ],
+      "place_id": "ChIJE9on3F3HwoAR9AhGJW_fL-I",
+      "reference": "ChIJE9on3F3HwoAR9AhGJW_fL-I",
+      "scope": "GOOGLE",
+      "types": [
+         "locality",
+         "political"
+      ],
+      "vicinity": "Los Angeles"
+   }
+]
+
+Closing  Connection...
+

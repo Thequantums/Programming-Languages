@@ -1,0 +1,17 @@
+Homework 2
+
+make_matcher: I decided to make make_parser based on make_matcher because of hints from discussion slides. The make_matcher function
+uses a backtracking approach and i built the tree from the current non-terminal node to the all the leaves by finding a
+acceptable prefix match. First i tried to match the first rule in the alternative list, if it doesnt result in a prefix
+match then it backtrack and try to match the next rule. And There is a helper function to build from the nonterminal to
+subtree. The helper function takes the rule from alternative list. If the rule's element is an nonterminal then we can
+recursivly call the mactcher function to try to match. If it's a terminal, then it try to match with fragment. If the
+current rule in the helper function ran out of element to match then, return what acceptor returns.
+make_parser: The make_parser use make_matcher in a more slightly modified way. So, i had to modify the make_matcher function in problem
+number 3 to keep track of the current rule being check and return those rules. Also, i have to create an acceptor function.
+There is also a helper function to contruct sub tree from nonterminal using the current rule.
+
+Weakness from the make_parser function is in some cases of rules in grammar, my program ran into a problem, stackoverflow
+in recuring loop. This happens when a nonterminal's rule contain a nonterminal to itself. Since the program intended to run
+on context free grammar, i assume it's ok to be stuck in infinite loop if it happends. Also another weekness of the program
+is the fact that i had to modify the make_matcher function to keep tracks of rule to implement in make paser.

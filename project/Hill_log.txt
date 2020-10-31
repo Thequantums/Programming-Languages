@@ -1,0 +1,146 @@
+Hill starting======
+Serving on ('127.0.0.1', 12205)
+
+RECEIVED COMMAND: IAMAT kiwi.cs.ucla.edu +34.068930-118.445127 1520023935.918963997
+
+RESPONDING TO IAMAT: AT Hill +63643981.77162838 kiwi.cs.ucla.edu +34.068930-118.445127 1520023935.918963997
+
+Hill SERVER CONNECTED TO Jaquez
+Success: Flooded data to Jaquez 
+Hill SERVER CONNECTED TO Smith
+Success: Flooded data to Smith 
+RECEIVED COMMAND: AT kiwi.cs.ucla.edu Hill +34.06893 -118.445127 63643981.77162838 1520023935.918964
+REDUNDANT AT COMMAND FROM: kiwi.cs.ucla.edu
+
+Close Connections.
+
+RECEIVED COMMAND: AT kiwi.cs.ucla.edu Hill +34.06893 -118.445127 63643981.77162838 1520023935.918964
+REDUNDANT AT COMMAND FROM: kiwi.cs.ucla.edu
+
+Close Connections.
+
+RECEIVED COMMAND: WHATSAT kiwi.cs.ucla.edu 10 5
+
+QUERYING PLACE FOR LOCATION WITH LATITUDE and LONGITUDE: (+34.06893, -118.445127), RADIUS: 10
+WHATSAT Response:
+AT Hill 63643981.77162838 kiwi.cs.ucla.edu +34.06893-118.445127 1583667918.6921096
+[
+   {
+      "geometry": {
+         "location": {
+            "lat": 34.0688873,
+            "lng": -118.4450169
+         },
+         "viewport": {
+            "northeast": {
+               "lat": 34.0702312302915,
+               "lng": -118.4436835197085
+            },
+            "southwest": {
+               "lat": 34.0675332697085,
+               "lng": -118.4463814802915
+            }
+         }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+      "id": "ef162ea4f60a0b3933fae75544dba377b996befa",
+      "name": "Westwood Plaza",
+      "place_id": "ChIJ6Re7qYi8woAR22jVhVAye2M",
+      "reference": "ChIJ6Re7qYi8woAR22jVhVAye2M",
+      "scope": "GOOGLE",
+      "types": [
+         "route"
+      ],
+      "vicinity": "Los Angeles"
+   },
+   {
+      "geometry": {
+         "location": {
+            "lat": 34.068921,
+            "lng": -118.4451811
+         },
+         "viewport": {
+            "northeast": {
+               "lat": 34.0828575,
+               "lng": -118.42990995
+            },
+            "southwest": {
+               "lat": 34.0575047,
+               "lng": -118.46313815
+            }
+         }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/school-71.png",
+      "id": "4d56f16ad3d8976d49143fa4fdfffbc0a7ce8e39",
+      "name": "University of California, Los Angeles",
+      "photos": [
+         {
+            "height": 3024,
+            "html_attributions": [
+               "<a href=\"https://maps.google.com/maps/contrib/102441856898186297335\">G L</a>"
+            ],
+            "photo_reference": "CmRaAAAAfjv3tIIQAt67eLIamC1X9m5T36D_2vxNPQ65ErqGhlthfhRxJIXqDGzxBXzXlBto_WOMHq8LFfhFF1sOYvtAyevMiyMPt0Kd3sAJnn4B2_Jn2xJ0MDLKYri7Fvfbe8cfEhAgrLnoVeesZNzksJnmxMBTGhRAus1wiB9cZRcQ-dsDvDNNVjv_8g",
+            "width": 4032
+         }
+      ],
+      "place_id": "ChIJZQ9c8IW8woARN0gTXFiTqSU",
+      "plus_code": {
+         "compound_code": "3H93+HW Los Angeles, California, United States",
+         "global_code": "85633H93+HW"
+      },
+      "rating": 4.5,
+      "reference": "ChIJZQ9c8IW8woARN0gTXFiTqSU",
+      "scope": "GOOGLE",
+      "types": [
+         "university",
+         "point_of_interest",
+         "establishment"
+      ],
+      "user_ratings_total": 1663,
+      "vicinity": "Los Angeles"
+   },
+   {
+      "geometry": {
+         "location": {
+            "lat": 34.0522342,
+            "lng": -118.2436849
+         },
+         "viewport": {
+            "northeast": {
+               "lat": 34.3373061,
+               "lng": -118.1552891
+            },
+            "southwest": {
+               "lat": 33.7036519,
+               "lng": -118.6681759
+            }
+         }
+      },
+      "icon": "https://maps.gstatic.com/mapfiles/place_api/icons/geocode-71.png",
+      "id": "7f7b7d8118ae8db8ed3f541159ac928c484d12ad",
+      "name": "Los Angeles",
+      "photos": [
+         {
+            "height": 810,
+            "html_attributions": [
+               "<a href=\"https://maps.google.com/maps/contrib/113136555241333752110\">Kwangsub shin</a>"
+            ],
+            "photo_reference": "CmRaAAAAnmvV1KgLGAQ0G1jBV82TkRpQOADoNkpl1cu3SEFLMbuYgyGmyZmSzs31Ed3B0ZokEZljKinp3GKbPZUbPiPqSWa4qQP2heBVaXh7qq5Py7cx2_DUYQ01rNpfWrNk86P0EhDNYZa8Z0JRYM8Sb8tx2UHHGhQHJe8uA9vHcYsh5cxlN2ub-OZdmQ",
+            "width": 1440
+         }
+      ],
+      "place_id": "ChIJE9on3F3HwoAR9AhGJW_fL-I",
+      "reference": "ChIJE9on3F3HwoAR9AhGJW_fL-I",
+      "scope": "GOOGLE",
+      "types": [
+         "locality",
+         "political"
+      ],
+      "vicinity": "Los Angeles"
+   }
+]
+
+
+
+Close Connections.
+

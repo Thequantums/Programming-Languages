@@ -1,0 +1,32 @@
+Homework 1
+
+1. subset - I first thought of using a for loop to iterate throught each element of a and check is it
+in element of b. But i discovered using pattern matching expression in ocaml is easier in ocaml. Since
+there must be two nested loops to check because elements in a & b might be in different orders. I then
+wrote a recursive helper function is_in. A subset function iterates throughs each of element of a and 
+called is_in to check by using pattern matching.
+
+2. equal_sets - I first attempted to return true if size of each subset is true and if elements in a is
+in element in b and element in b is in element in a. But since list allows duplicates, comparing size of
+subsets is wrong. I later simplified the code of the function by returning true if a is a subset of b and
+b is a subset of a.
+
+3. set_union - I attempted to appened the list a and b together and create a function to build duplicates
+list and take the appended list minus duplicate list to get set_union. But it is overkill. So, the set_union
+just iterate throught element of list a if an element is in b, then discard it else appened it to b. Then
+it is much simplified.
+
+4. set_intersection - check if element in set a is in b then append it else discard. Since list allows duplicates
+, the function will not filter duplicates of result list.
+
+5. set_diff - check if element in set a is in b then discard it else appened to result list.
+
+6. computed_fixed_point - usually the applied operator eq is (=). if applying opertor on f x and x is true then
+return x else compute new x by f x then recusivly called the function with new value of x.
+
+7. filter_reachable -- i followed the link from TA that solves the problem with python program. I found the idea of
+filtering the rules with all reachable non-terminals. so it preserves the order the resulted programmar.
+Since the start symbol starts in random place in rules, we need to at least iterate more n time to get all reachable
+non-terminals. I found the idea of using equal sets and set_union from TA to build up reachable non-terminal and stop
+iterating when they are equal sets. After finding all reachable non terminals value we can use it to filter out the
+original rules and return it.

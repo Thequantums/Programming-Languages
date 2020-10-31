@@ -1,0 +1,15 @@
+Jaquez starting======
+Serving on ('127.0.0.1', 12206)
+
+RECEIVED COMMAND: AT kiwi.cs.ucla.edu Hill +34.06893 -118.445127 63643981.77162838 1520023935.918964
+Jaquez SERVER CONNECTED TO Hill
+Success: Flooded data to Hill 
+Jaquez SERVER CONNECTED TO Singleton
+Success: Flooded data to Singleton 
+Close Connections.
+
+RECEIVED COMMAND: AT kiwi.cs.ucla.edu Hill +34.06893 -118.445127 63643981.77162838 1520023935.918964
+REDUNDANT AT COMMAND FROM: kiwi.cs.ucla.edu
+
+Close Connections.
+

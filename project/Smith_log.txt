@@ -1,0 +1,22 @@
+Smith starting======
+Serving on ('127.0.0.1', 12207)
+
+RECEIVED COMMAND: AT kiwi.cs.ucla.edu Hill +34.06893 -118.445127 63643981.77162838 1520023935.918964
+Smith SERVER CONNECTED TO Hill
+Success: Flooded data to Hill 
+Smith SERVER CONNECTED TO Singleton
+Success: Flooded data to Singleton 
+Smith SERVER CONNECTED TO Campbell
+Success: Flooded data to Campbell 
+Close Connections.
+
+RECEIVED COMMAND: AT kiwi.cs.ucla.edu Hill +34.06893 -118.445127 63643981.77162838 1520023935.918964
+REDUNDANT AT COMMAND FROM: kiwi.cs.ucla.edu
+
+RECEIVED COMMAND: AT kiwi.cs.ucla.edu Hill +34.06893 -118.445127 63643981.77162838 1520023935.918964
+REDUNDANT AT COMMAND FROM: kiwi.cs.ucla.edu
+
+Close Connections.
+
+Close Connections.
+

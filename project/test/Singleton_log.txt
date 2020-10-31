@@ -1,0 +1,22 @@
+Singleton starting======
+Serving on ('127.0.0.1', 12209)
+
+RECEIVED COMMAND: AT kiwi.cs.ucla.edu Hill +34.06893 -118.445127 63715352.83412027 1520023935.918964
+RECEIVED COMMAND: AT kiwi.cs.ucla.edu Hill +34.06893 -118.445127 63715352.83412027 1520023935.918964
+REDUNDANT AT COMMAND FROM: kiwi.cs.ucla.edu
+
+Close Connections.
+
+Singleton SERVER CONNECTED TO Jaquez
+Success: Flooded data to Jaquez 
+Singleton SERVER CONNECTED TO Smith
+Success: Flooded data to Smith 
+RECEIVED COMMAND: AT kiwi.cs.ucla.edu Hill +34.06893 -118.445127 63715352.83412027 1520023935.918964
+REDUNDANT AT COMMAND FROM: kiwi.cs.ucla.edu
+
+Close Connections.
+
+Singleton SERVER CONNECTED TO Campbell
+Success: Flooded data to Campbell 
+Close Connections.
+
